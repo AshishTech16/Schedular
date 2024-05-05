@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: palevioletred;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.heading-1{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:1rem;
+}
+.input{
+    width: 20rem;
+    height: 2rem;
+    background-color: aliceblue;
+}
+.button{
+    background-color: whitesmoke;
+}
+.todos-container{
+    margin-top: 4%;
+    margin-left: 14.5rem;
+}
+.todo-form{
+    position: relative;
+    top:2rem;
+}
+.checked-todo{
+    text-decoration: line-through;
+    color: black;
+}
+.icon{
+    position: relative;
+    right: 0;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:28rem;
+}
+.footer h2{
+    color: whitesmoke;
+}
+.del{
+    background-color: whitesmoke;
+}
